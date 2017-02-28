@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D729713C1E65BB4A008148CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729713B1E65BB4A008148CF /* AppDelegate.swift */; };
+		D729713E1E65BB4A008148CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729713D1E65BB4A008148CF /* ViewController.swift */; };
+		D72971411E65BB4A008148CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D729713F1E65BB4A008148CF /* Main.storyboard */; };
+		D72971431E65BB4A008148CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72971421E65BB4A008148CF /* Assets.xcassets */; };
+		D72971461E65BB4A008148CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72971441E65BB4A008148CF /* LaunchScreen.storyboard */; };
+		D72971511E65BB4A008148CF /* CuckooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72971501E65BB4A008148CF /* CuckooTests.swift */; };
+		D729715C1E65BB4B008148CF /* CuckooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729715B1E65BB4B008148CF /* CuckooUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D729714D1E65BB4A008148CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72971301E65BB4A008148CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72971371E65BB4A008148CF;
+			remoteInfo = Cuckoo;
+		};
+		D72971581E65BB4B008148CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72971301E65BB4A008148CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72971371E65BB4A008148CF;
+			remoteInfo = Cuckoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D72971381E65BB4A008148CF /* Cuckoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuckoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729713B1E65BB4A008148CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D729713D1E65BB4A008148CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D72971401E65BB4A008148CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72971421E65BB4A008148CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D72971451E65BB4A008148CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D72971471E65BB4A008148CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D729714C1E65BB4A008148CF /* CuckooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuckooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72971501E65BB4A008148CF /* CuckooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooTests.swift; sourceTree = "<group>"; };
+		D72971521E65BB4A008148CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72971571E65BB4B008148CF /* CuckooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuckooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729715B1E65BB4B008148CF /* CuckooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuckooUITests.swift; sourceTree = "<group>"; };
+		D729715D1E65BB4B008148CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72971351E65BB4A008148CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72971491E65BB4A008148CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72971541E65BB4B008148CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D729712F1E65BB4A008148CF = {
+			isa = PBXGroup;
+			children = (
+				D729713A1E65BB4A008148CF /* Cuckoo */,
+				D729714F1E65BB4A008148CF /* CuckooTests */,
+				D729715A1E65BB4B008148CF /* CuckooUITests */,
+				D72971391E65BB4A008148CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D72971391E65BB4A008148CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D72971381E65BB4A008148CF /* Cuckoo.app */,
+				D729714C1E65BB4A008148CF /* CuckooTests.xctest */,
+				D72971571E65BB4B008148CF /* CuckooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D729713A1E65BB4A008148CF /* Cuckoo */ = {
+			isa = PBXGroup;
+			children = (
+				D729713B1E65BB4A008148CF /* AppDelegate.swift */,
+				D729713D1E65BB4A008148CF /* ViewController.swift */,
+				D729713F1E65BB4A008148CF /* Main.storyboard */,
+				D72971421E65BB4A008148CF /* Assets.xcassets */,
+				D72971441E65BB4A008148CF /* LaunchScreen.storyboard */,
+				D72971471E65BB4A008148CF /* Info.plist */,
+			);
+			path = Cuckoo;
+			sourceTree = "<group>";
+		};
+		D729714F1E65BB4A008148CF /* CuckooTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72971501E65BB4A008148CF /* CuckooTests.swift */,
+				D72971521E65BB4A008148CF /* Info.plist */,
+			);
+			path = CuckooTests;
+			sourceTree = "<group>";
+		};
+		D729715A1E65BB4B008148CF /* CuckooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D729715B1E65BB4B008148CF /* CuckooUITests.swift */,
+				D729715D1E65BB4B008148CF /* Info.plist */,
+			);
+			path = CuckooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72971371E65BB4A008148CF /* Cuckoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72971601E65BB4B008148CF /* Build configuration list for PBXNativeTarget "Cuckoo" */;
+			buildPhases = (
+				D72971341E65BB4A008148CF /* Sources */,
+				D72971351E65BB4A008148CF /* Frameworks */,
+				D72971361E65BB4A008148CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cuckoo;
+			productName = Cuckoo;
+			productReference = D72971381E65BB4A008148CF /* Cuckoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D729714B1E65BB4A008148CF /* CuckooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72971631E65BB4B008148CF /* Build configuration list for PBXNativeTarget "CuckooTests" */;
+			buildPhases = (
+				D72971481E65BB4A008148CF /* Sources */,
+				D72971491E65BB4A008148CF /* Frameworks */,
+				D729714A1E65BB4A008148CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D729714E1E65BB4A008148CF /* PBXTargetDependency */,
+			);
+			name = CuckooTests;
+			productName = CuckooTests;
+			productReference = D729714C1E65BB4A008148CF /* CuckooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D72971561E65BB4B008148CF /* CuckooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72971661E65BB4B008148CF /* Build configuration list for PBXNativeTarget "CuckooUITests" */;
+			buildPhases = (
+				D72971531E65BB4B008148CF /* Sources */,
+				D72971541E65BB4B008148CF /* Frameworks */,
+				D72971551E65BB4B008148CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72971591E65BB4B008148CF /* PBXTargetDependency */,
+			);
+			name = CuckooUITests;
+			productName = CuckooUITests;
+			productReference = D72971571E65BB4B008148CF /* CuckooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72971301E65BB4A008148CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cuckoo Inc";
+				TargetAttributes = {
+					D72971371E65BB4A008148CF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					D729714B1E65BB4A008148CF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D72971371E65BB4A008148CF;
+					};
+					D72971561E65BB4B008148CF = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D72971371E65BB4A008148CF;
+					};
+				};
+			};
+			buildConfigurationList = D72971331E65BB4A008148CF /* Build configuration list for PBXProject "Cuckoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D729712F1E65BB4A008148CF;
+			productRefGroup = D72971391E65BB4A008148CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72971371E65BB4A008148CF /* Cuckoo */,
+				D729714B1E65BB4A008148CF /* CuckooTests */,
+				D72971561E65BB4B008148CF /* CuckooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72971361E65BB4A008148CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72971461E65BB4A008148CF /* LaunchScreen.storyboard in Resources */,
+				D72971431E65BB4A008148CF /* Assets.xcassets in Resources */,
+				D72971411E65BB4A008148CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729714A1E65BB4A008148CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72971551E65BB4B008148CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72971341E65BB4A008148CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729713E1E65BB4A008148CF /* ViewController.swift in Sources */,
+				D729713C1E65BB4A008148CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72971481E65BB4A008148CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72971511E65BB4A008148CF /* CuckooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72971531E65BB4B008148CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729715C1E65BB4B008148CF /* CuckooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D729714E1E65BB4A008148CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72971371E65BB4A008148CF /* Cuckoo */;
+			targetProxy = D729714D1E65BB4A008148CF /* PBXContainerItemProxy */;
+		};
+		D72971591E65BB4B008148CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72971371E65BB4A008148CF /* Cuckoo */;
+			targetProxy = D72971581E65BB4B008148CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D729713F1E65BB4A008148CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72971401E65BB4A008148CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D72971441E65BB4A008148CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72971451E65BB4A008148CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D729715E1E65BB4B008148CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D729715F1E65BB4B008148CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72971611E65BB4B008148CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cuckoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cockoo.Cuckoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D72971621E65BB4B008148CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cuckoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cockoo.Cuckoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D72971641E65BB4B008148CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CuckooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cockoo.CuckooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuckoo.app/Cuckoo";
+			};
+			name = Debug;
+		};
+		D72971651E65BB4B008148CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CuckooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cockoo.CuckooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuckoo.app/Cuckoo";
+			};
+			name = Release;
+		};
+		D72971671E65BB4B008148CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CuckooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cockoo.CuckooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cuckoo;
+			};
+			name = Debug;
+		};
+		D72971681E65BB4B008148CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CuckooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.cockoo.CuckooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cuckoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72971331E65BB4A008148CF /* Build configuration list for PBXProject "Cuckoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729715E1E65BB4B008148CF /* Debug */,
+				D729715F1E65BB4B008148CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72971601E65BB4B008148CF /* Build configuration list for PBXNativeTarget "Cuckoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72971611E65BB4B008148CF /* Debug */,
+				D72971621E65BB4B008148CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D72971631E65BB4B008148CF /* Build configuration list for PBXNativeTarget "CuckooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72971641E65BB4B008148CF /* Debug */,
+				D72971651E65BB4B008148CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D72971661E65BB4B008148CF /* Build configuration list for PBXNativeTarget "CuckooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72971671E65BB4B008148CF /* Debug */,
+				D72971681E65BB4B008148CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72971301E65BB4A008148CF /* Project object */;
+}
